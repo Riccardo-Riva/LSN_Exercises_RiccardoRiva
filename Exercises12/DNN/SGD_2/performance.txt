@@ -1,0 +1,4 @@
+optimizer=SGD(lr=0.01, decay=1e-6, momentum=0.9, nesterov=True)
+
+Test loss: 0.0688907727599144
+Test accuracy: 0.9786999821662903

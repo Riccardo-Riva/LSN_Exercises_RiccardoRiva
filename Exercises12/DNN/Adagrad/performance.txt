@@ -1,0 +1,4 @@
+optimizer=Adagrad(lr=0.02, epsilon=1e-7, decay=1e-6)
+
+Test loss: 0.08189534395933151
+Test accuracy: 0.9735999703407288

@@ -1,0 +1,4 @@
+Adadelta(lr=1.0, rho=0.95, epsilon=None, decay=0.0)
+
+Test loss: 0.08217352628707886
+Test accuracy: 0.9781000018119812

@@ -1,0 +1,17 @@
+model = Sequential()
+	model.add(Conv2D(6, kernel_size=(5, 5),	activation='relu', input_shape=input_shape))
+	model.add(MaxPooling2D(pool_size=(2,2)))
+	model.add(Conv2D(16, kernel_size=(5, 5), activation='relu', input_shape=input_shape))
+	model.add(MaxPooling2D(pool_size=(2,2)))
+	model.add(Flatten())
+	model.add(Dense(60, activation='relu'))
+	model.add(Dense(50, activation='relu'))
+	model.add(Dropout(0.5))
+	model.add(Dense(num_classes, activation='softmax'))
+
+	model.compile(loss=keras.losses.categorical_crossentropy,
+                  optimizer=SGD(lr=0.01, decay=1e-6, momentum=0.9, nesterov=True),
+                  metrics=['accuracy'])
+
+Test loss: 0.04192529618740082
+Test accuracy: 0.9886999726295471

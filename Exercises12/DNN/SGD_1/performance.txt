@@ -1,0 +1,4 @@
+optimizer=SGD()
+
+Test loss: 0.15722277760505676
+Test accuracy: 0.9501000046730042

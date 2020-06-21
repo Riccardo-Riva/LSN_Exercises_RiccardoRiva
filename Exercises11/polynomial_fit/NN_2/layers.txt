@@ -1,0 +1,7 @@
+model = Sequential()
+model.add(Dense(80, input_shape=(1,), activation='relu'))
+model.add(Dense(1, activation='relu'))
+
+180 generations
+
+Test loss: 0.044997308403253555
